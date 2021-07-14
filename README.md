@@ -19,3 +19,13 @@ yarn build && node dist/main.js
 http://localhost:3000
 
 will throw 500(internal server error).
+
+## Read Compiled SourceMap
+
+**node@16 is required.**
+
+```shell
+yarn build
+cd read-sourcemap
+yarn && node index.js
+```
